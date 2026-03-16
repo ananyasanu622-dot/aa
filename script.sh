@@ -1,3 +1,4 @@
 #!/bin/bash
+
 echo "Running Python Program"
- app.py
+python3 app.py
