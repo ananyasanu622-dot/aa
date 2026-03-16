@@ -1,7 +1,5 @@
-print("Hello from Jenkins Automated Build")
+print("Hello Jenkins CI/CD")
 
-a = 10
-b = 20
-c = a + b
-
-print("Sum:", c)
+a = 5
+b = 10
+print("Sum =", a + b)
