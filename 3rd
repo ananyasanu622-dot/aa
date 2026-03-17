@@ -1,0 +1,11 @@
+java --version
+sudo apt update
+sudo apt install openidk-21-jdk -y
+sudo rm jenkins.war
+sudo rm -rf ~/.jenkins
+Java-jar jenkins.war
+Java-jar Jenkins.war --httpPort=8090
+
+ngrok -version 
+sudo apt install snapd-y
+sudo snap install ngrok 
